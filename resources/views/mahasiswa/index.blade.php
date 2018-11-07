@@ -57,7 +57,7 @@
             </tbody>
 
           </table>
-
+          <a href="{{ url('welcome') }}">Back</a>
 
         </div>
       </div>
