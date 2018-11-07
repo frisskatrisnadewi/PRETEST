@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::resource('mahasiswa','MahasiswaController');
 Route::resource('prodi','ProdiController');
+Route::get('welcome', 'WelcomeContoller@show');

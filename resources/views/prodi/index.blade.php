@@ -15,7 +15,7 @@
           <div class="float-left">
             <h2>Daftar Program Studi</h2>
           </div>
-
+           <a href="{{ url('welcome') }}">Back</a>
           <div class="float-right">
             <a class="btn btn-primary" href="{{ route('prodi.create') }}">Tambah Program Studi</a>
           </div>
