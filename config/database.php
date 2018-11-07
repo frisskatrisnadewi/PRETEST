@@ -46,7 +46,7 @@ return [
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'friska'),
             'username' => env('DB_USERNAME', 'friska'),
-            'frisska25' => env('DB_PASSWORD', ''),
+            'password' => env('DB_PASSWORD', 'frisska25'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
